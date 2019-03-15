@@ -1,0 +1,26 @@
+// If you want to override variables do it here
+@import "variables";
+
+// Import styles
+@import "~@coreui/coreui/scss/coreui";
+
+// If you want to add something do it here
+@import "custom";
+
+$color-primario: #520735;
+$color-primario: #3c1624;
+$color-beige: #adb5ab;
+$color-plomo1: #aab5bd;
+$color-plomo2: #68788d;
+
+$borde-card: lighten($color-plomo2, 20%);
+$back-card: lighten($color-primario, 0%);
+
+// .card {
+//     border: 1px solid $borde-card;
+// }
+
+// .card-header {
+//     background-color: $back-card;
+//     border-bottom: 1px solid $borde-card;
+// }

@@ -1,0 +1,58 @@
+// Variable overrides
+$color-primario: #520735;
+$color-primario: #3c1624;
+$color-beige: #adb5ab;
+$color-plomo1: #aab5bd;
+$color-plomo2: #68788d;
+
+// Navbar
+$navbar-bg:                           lighten($color-beige,47%) !default;
+$navbar-border: (
+  bottom: (
+    size:                             1px,
+    style:                            solid,
+    color:                            $color-plomo2,
+  )
+)  !default;
+
+// Sidebar
+$sidebar-bg: $color-primario !default;
+
+// Sidebar Form
+
+// $sidebar-form-border:                 0 !default;
+// $sidebar-form-bg:                     darken($sidebar-bg,20%) !default;
+// $sidebar-form-color:                  blue !default;
+// $sidebar-form-placeholder-color:      yellow !default;
+
+// Sidebar Navigation
+$sidebar-nav-link-hover-bg: darken($sidebar-bg,5%) !default;
+
+// Sidebar Navigation
+$sidebar-nav-link-color:              #fff !default;
+$sidebar-nav-link-icon-color:         lighten($sidebar-bg,20%) !default;
+
+$sidebar-nav-link-active-icon-color:  #fff !default;
+
+
+// Breadcrumb
+$breadcrumb-borders: (
+  bottom: (
+    size:                             1px,
+    style:                            solid,
+    color:                            $color-plomo2
+  )
+) !default;
+
+
+// Footer
+$footer-height:                       50px !default;
+$footer-bg:                           $navbar-bg !default;
+$footer-borders: (
+  top: (
+    size:                             1px,
+    style:                            solid,
+    color:                            $color-plomo2
+  )
+) !default;
+
